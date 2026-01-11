@@ -75,7 +75,6 @@ UserInputService.InputBegan:Connect(function(Input, GP)
 	if GP then return end
 
 	if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-		print(IsSwinging)
 		if not IsSwinging then
 			if CurrentTarget then
 				IsSwinging = true
